@@ -6,7 +6,6 @@ div#holder{
     width: 70vw;
     margin:0;
     margin:auto;
-
     background-color: bisque;
     height: 100vh;
     overflow: scroll;
@@ -16,16 +15,26 @@ div.container{
 }
 li{
     list-style: none;
+    text-align: center;
 }
 body{
     font-size:2em;
-    background-color: aliceblue;
+    background-image:url(../libry.jpg);
+    background-size: 100vw;
     margin:0;
 }
 *{
     box-sizing: border-box;
 }
-@media screen and (max-width:800px) {
+footer{
+    position:absolute;
+    background-color:navajowhite;
+    width: 70vw;
+    bottom:0px;
+    padding:.5em;
+    font-size: .5em;
+}
+@media screen and (max-width:1000px) {
     div#holder{
         width: 100vw;
     }
