@@ -25,7 +25,7 @@ body{
 *{
     box-sizing: border-box;
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width:800px) {
     div#holder{
         width: 100vw;
     }
