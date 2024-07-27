@@ -1,0 +1,27 @@
+header{
+    background-color: beige;
+    padding: 1em;
+}
+div#holder{
+    width: 70vw;
+    margin:0;
+    margin:auto;
+
+    background-color: bisque;
+    height: 100vh;
+    overflow: scroll;
+}
+div.container{
+    padding:1em;
+}
+li{
+    list-style: none;
+}
+body{
+    font-size:2em;
+    background-color: aliceblue;
+    margin:0;
+}
+*{
+    box-sizing: border-box;
+}
