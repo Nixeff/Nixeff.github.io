@@ -22,6 +22,19 @@ div#holder{
 div.container{
     padding:1em;
 }
+div#index-div{
+    display: flex;
+    width: 80vw;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+div#beside-me{
+    background-color: var(--background-colors);
+}
 li{
     transition:3s;
     background-color: var(--highlight-colors);
