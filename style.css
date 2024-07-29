@@ -34,6 +34,19 @@ div#index-div{
 }
 div#beside-me{
     background-color: var(--background-colors);
+    padding:2em;
+    height: fit-content;
+}
+div#beside-me h2{
+    text-align: center;
+}
+div#beside-me p{
+    padding:1em;
+}
+div#beside-me div{
+    width: fit-content;
+    margin:auto;
+    
 }
 li{
     transition:3s;
@@ -73,6 +86,9 @@ footer{
 @media screen and (max-width:1000px) {
     div#holder{
         width: 100vw;
+    }
+    div#index-div{
+        display:inline-block;
     }
     body{
         font-size:1em;
