@@ -1,12 +1,21 @@
+:root {
+    --front-colors: rgb(98,109,113);
+    --background-colors: rgb(221,188,149);
+    --highlight-colors: rgb(179,136,103);
+    --accent-colors: rgb(205,205,192);
+    --accent-highlight-colors: rgb(244,237,225);
+}
+
 header{
-    background-color: beige;
+    background-color: var(--highlight-colors);
     padding: 1em;
+    text-align: center;
 }
 div#holder{
     width: 70vw;
     margin:0;
     margin:auto;
-    background-color: bisque;
+    background-color: var(--background-colors);
     height: 100vh;
     overflow: scroll;
 }
@@ -28,7 +37,7 @@ body{
 }
 footer{
     position:absolute;
-    background-color:navajowhite;
+    background-color:var(--accent-colors);
     width: 70vw;
     bottom:0px;
     padding:.5em;
